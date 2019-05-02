@@ -92,7 +92,7 @@ void startGame(){
 		if (column == -1)
 			break;
 		game->playNextTurn(column);
-		//printBoard();
+		printBoard();
 	}
 
 	if (game->status() == Game::GS_COMPLETE) //if the game is finished
